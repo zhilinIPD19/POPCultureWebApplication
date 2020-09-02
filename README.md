@@ -1,2 +1,2 @@
 # POPCultureWebApplication
-A website with serval pages for POP Culture Company
+A web application with serval pages for POP Culture Company
