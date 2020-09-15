@@ -1,0 +1,33 @@
+.jumbotron {
+    margin-top: 50px;
+    background-image: url("images/possiblebackground-addedpops.png");
+    background-size: cover;
+  }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color:black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: black;
+}
+
+.iceCreamCarouselImg img {
+    width: auto;
+    height: 700px;
+    max-height: 700px;
+  }
