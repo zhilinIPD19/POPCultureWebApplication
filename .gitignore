@@ -5,6 +5,11 @@
 /logs/*
 /tmp/*
 /vendor/*
+### Example user template template
+### Example user template
+
+
+/composer.lock
 
 # OS generated files #
 ######################
