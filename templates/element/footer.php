@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-md-6 text-center align-self-center p-4">
         <h5 class="py-5">
-            <a href="#"><i class="fas fa-map-marker-alt"></i>&nbsp;<br>33 Rue du Yacht Club,Hudson QC CA 94107</a></br/>
-            <a href="#"><i class="fas fa-phone-volume"></i>&nbsp;<br>(514)-8342316</a></br/>
-            <a href="#"><i class="fas fa-envelope-open-text"></i>&nbsp;<br>gourmetpopsicles@gmail.com</a>
+            <a href="https://goo.gl/maps/u9uwhZgaVdELj9AM6"><i class="fas fa-map-marker-alt"></i><br>33 Rue du Yacht Club,Hudson QC CA 94107</a></br/>
+            <a href="tel:514-834-2316"><i class="fas fa-phone-volume"></i><br>(514)-8342316</a></br/>
+            <a href = "mailto: gourmetpopsicles@gmail.com"><i class="fas fa-envelope-open-text"></i><br>gourmetpopsicles@gmail.com</a>
             </h5>
           <div class="row">
             <div class="col-md-12 d-flex align-items-center justify-content-around"> <a href="#">
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-md-6 p-0"> <iframe width="100%" height="350"
-            src="https://maps.google.com/maps?hl=en&amp;q=Montreal&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.481521914926!2d-74.14574478510902!3d45.4601031791009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc934c6c947608b%3A0xd400698888399e9c!2s33%20Rue%20du%20Yacht%20Club%2C%20Hudson%2C%20QC%20J7T%202H9!5e0!3m2!1sen!2sca!4v1600829544442!5m2!1sen!2sca"
             scrolling="no" frameborder="0"></iframe></div>
       </div>
     </div>

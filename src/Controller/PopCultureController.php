@@ -22,7 +22,8 @@ class PopCultureController extends AppController{
             $message = $messagesTable->patchEntity($message, $this->request->getData());
             if ($messagesTable->save($message)) {
                 $this->Flash->success(__('The message has been saved.'));
-                //mail("linzhilin0@gmail.com","hello","hello","zhilin.lin@yahoo.com");
+                $messageContent = "Message ID:# ".$message->id."\r\nMessage from: ".$message->name."\r\nPhone number: ".$message->phoneNumber."\r\nEmail Address: ".$message->email."\r\nMessage content: ".$message->message;
+                mail("linzhilin0@gmail.com","Message from: ".$message->name ,$messageContent);
             }
             $this->Flash->error(__('The message could not be saved. Please, try again.'));
         }

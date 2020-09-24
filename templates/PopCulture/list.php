@@ -5,14 +5,13 @@
        
         <?php foreach ($popsicles as $popsicle): ?>
             <div class="col-md-4">
-          <div class="card"> <img class="card-img-top" src= <?=$this->Url->image($popsicle->image);?>
-              alt=<?=$popsicle->name;?>>
+          <div class="card"> <img class="card-img-top" src=<?=$this->Url->image($popsicle->image);?> alt=<?=$popsicle->name;?>>
             <div class="card-body">
               <div class="row">
-                <h4 class="card-title col-6">alt=<?=$popsicle->name;?></h4>
+                <h4 class="card-title col-6"><?=$popsicle->name;?></h4>
                 <h4 class="card-title col-6 text-right"></h4>
               </div>
-              <p class="card-text">alt=<?=$popsicle->description;?></p> <a href="#" class="btn btn-primary" contenteditable="true">Add to cart</a>
+              <p class="card-text"><?=$popsicle->description;?></p> <a href="#" class="btn btn-primary" contenteditable="true">Details</a>
             </div>
           </div>
         </div>
