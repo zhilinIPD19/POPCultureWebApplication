@@ -12,13 +12,13 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    type="text/css">
+        type="text/css">
 
     <title>Where to Find Us | Pop Culture</title>
     <style>
-        #parallax-image {
+         #parallax-image {
             background-image: url("images/possiblebackground-addedpops.png");
-            height: 450px;
+            height: 280px;
             border-radius: 15px;
             background-attachment: fixed;
             background-position: center;
@@ -39,7 +39,7 @@
 
         #parallax-image-bottom {
             background-image: url("images/possiblebackground-addedpops.png");
-            height: 200px;
+            height: 100px;
             border-radius: 15px;
             background-attachment: fixed;
             background-position: center;
@@ -47,19 +47,18 @@
             background-size: cover;
         }
 
-        #footer{
-            background-color: #fcddeb80;
+        #footer {
+            background-color: #d6d5d580;
             padding-top: 10px;
             border-radius: 15px;
             margin-top: 10px;
         }
 
         #headerImg {
-            height: 243px;
-            width: 708px;
+            height: auto;
+            width: auto;
             border-radius: 25px;
         }
-
 
         h1 {
             font-family: 'Londrina Solid', cursive;
@@ -67,7 +66,10 @@
             color: #df016e;
         }
 
-        h2, h3, h4, h5 {
+        h2,
+        h3,
+        h4,
+        h5 {
             font-family: 'Londrina Solid', cursive;
             color: #df016e;
         }
@@ -88,10 +90,13 @@
         }
 
         .jumbotron {
-            background-color: #fcddeb80;
+            background-color: #d6d5d580;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            height: 100px;
         }
 
-        .btn{
+        .btn {
             background-color: hotpink;
         }
 
@@ -102,7 +107,7 @@
             /* Added */
             margin-bottom: 30px;
             /* Added */
-            background-color: #fcddeb80;
+            background-color: #d6d5d580;
         }
 
         @media (min-width: 1200px) {
@@ -130,27 +135,28 @@
         <!-- Navigation -->
         <ul class="nav justify-content-center my-3">
             <li class="nav-item">
-                <a class="nav-link active" href="#">HOME</a>
+                <a class="nav-link active" href="home.html">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link"
+                    href="flavours.html">FLAVOURS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="C:\Users\optim\Pictures\pop culture\popculturewebsite\flavorspage-parallax.html">FLAVORS</a>
+                <a class="nav-link" href="wheretofindus.html">WHERE TO FIND US</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">WHERE TO FIND US</a>
+                <a class="nav-link" href="ourstory.html">OUR
+                    STORY</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="C:\Users\optim\Pictures\pop culture\popculturewebsite\ourstory.html">OUR STORY</a>
+                <a class="nav-link" href="contactus.html">CONTACT US</a>
             </li>
         </ul>
 
         <div class="row">
             <div class="col text-center">
                 <div class="jumbotron">
-                    <h1 class="display-4">WHERE TO FIND US</h1>
-                    <hr class="my-4">
+                    <h2 class="pt-3">Where to Find Us</h2>
                 </div>
             </div>
         </div>
@@ -160,64 +166,82 @@
 
     <div class="container text-center">
         <div class="row">
-            <div class="col-lg-5 col-md-6 p-md-4 col-3"> <iframe class="mt-5" width="100%" height="350"
-                src="https://maps.google.com/maps?hl=en&amp;q=Montreal&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                scrolling="no" frameborder="0"></iframe> </div>
+
+
+                <div class="col-lg-5 col-md-6 p-md-4 col-sm-12" style="height:560px; display:inline-block; overflow:hidden;">
+                    <iframe style="position:relative; top:-75px; border:none;" 
+                          src="https://www.google.com/maps/d/u/1/embed?mid=1--wxJnGpid9VUvx3nBenFxYGQ3oNNzQy" 
+                          width="850" height="580"></iframe>
+                    </div>
+                    
             <div class="col-md-5 offset-lg-1 d-flex flex-column justify-content-center py-4">
-              <ul class="list-group mb-4">
-                  <li class="list-group-item">Hudson Yacht Club</li>
-                  <li class="list-group-item">Hanzo</li>
-                  <li class="list-group-item">East</li>
-                  <li class="list-group-item">Station 210 (Saint-André-d'Argenteuil)</li>
-                  <li class="list-group-item">Beau's All Natural Brewery (Vankleek Hill, Ontario)</li>
-                  <li class="list-group-item">Escondite (Union Street, Drummond, Laval, West Island)</li>
-                  <li class="list-group-item">IGA (Hudson)</li>
-                  <li class="list-group-item">Mikko Espresso & Boutique</li>
-                  <li class="list-group-item">Finnegan's Market / Marche Finnegan</li>
-                  <li class="list-group-item">Quinn Farm / La Ferme Quinn</li>
-              </ul>
-            </div>
-          </div>
-    </div>
-
-    <div class="container">
-        <div id="parallax-image-bottom">
-            <div class="row h-100">
-
-                <div class="col-md-12 align-self-center">
-                </div>
-
+                <ul class="list-group mb-4">
+                    <li class="list-group-item">
+                        <a href="http://www.hudsonyachtclub.com/">Hudson Yacht Club</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://www.hanzoizakaya.ca/">Hanzo</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.eastpanasiatique.com/">East</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.facebook.com/Station210/">Station 210 (Saint-André-d'Argenteuil)</a>
+                    </li>
+                    <li class="list-group-item"> 
+                        <a href="https://beaus.ca/">Beau's All Natural Brewery (Vankleek Hill, Ontario)</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://www.escondite.ca/">Escondite (Drummond, Union, Laval, West Island)</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.iga.net/fr/recherche_de_magasin/magasin/8352-iga-famille-deziel-hudson">IGA (Hudson)</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://mikkoespressoboutique.ca/password">Mikko Espresso & Boutique</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.facebook.com/marchefinneganmarket/">Finnegan's Market / Marche Finnegan</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.quinnfarm.qc.ca/">Quinn Farm / La Ferme Quinn</a>
+                    </li>
+                </ul>
             </div>
         </div>
-
     </div>
+
 
     <div class="container" id="footer">
         <div class="row">
-          <div class="col-md-6 text-center align-self-center p-4">
-            <p class="mb-5"><strong>POP CULTURE Inc.</strong> <br>33 Rue du Yacht Club <br>Hudson QC CA 94107
-              <br> <abbr title="Phone">P:</abbr> (514)-8342316 </p>
-            <div class="row">
-              <div class="col-md-12 d-flex align-items-center justify-content-around"> <a href="#">
-                  <i class="d-block fa fa-facebook-official  fa-lg mx-2"></i>
-                </a> <a href="#">
-                  <i class="d-block fa fa-instagram  fa-lg mx-2"></i>
-                </a> <a href="#">
-                  <i class="d-block fa fa-google-plus-official  fa-lg mx-2"></i>
-                </a> <a href="#">
-                  <i class="d-block fa fa-pinterest-p  fa-lg mx-2"></i>
-                </a> <a href="#">
-                  <i class="d-block fa fa-reddit  fa-lg mx-2"></i>
-                </a> <a href="#">
-                  <i class="d-block fa fa-twitter  fa-lg ml-2"></i>
-                </a> </div>
+            <div class="col-md-6 text-center align-self-center p-4">
+                <p class="mb-5"><strong>POP CULTURE Inc.</strong> <br>33 Rue du Yacht Club <br>Hudson QC CA J0P 1H0
+                    <br> <abbr title="Phone">P:</abbr> (514)-8342316 </p>
+                <div class="row">
+                    <div class="col-md-12 d-flex align-items-center justify-content-around"> <a href="#">
+                            <i class="d-block fa fa-facebook-official  fa-lg mx-2"></i>
+                        </a> <a href="#">
+                            <i class="d-block fa fa-instagram  fa-lg mx-2"></i>
+                        </a> <a href="#">
+                            <i class="d-block fa fa-google-plus-official  fa-lg mx-2"></i>
+                        </a> <a href="#">
+                            <i class="d-block fa fa-pinterest-p  fa-lg mx-2"></i>
+                        </a> <a href="#">
+                            <i class="d-block fa fa-reddit  fa-lg mx-2"></i>
+                        </a> <a href="#">
+                            <i class="d-block fa fa-twitter  fa-lg ml-2"></i>
+                        </a> </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 p-0"> <iframe width="100%" height="350"
-              src="https://maps.google.com/maps?hl=en&amp;q=Montreal&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-              scrolling="no" frameborder="0"></iframe></div>
+            <div class="col-md-6 pt-4">
+                <div class="p-0" style="overflow:hidden;"> <iframe style="position:relative; top:-75px; border:none;"
+                        width="100%" height="350"
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1ZM--eEBdVaOEntSzDbC4SKkzdG9a14Fg"
+                        scrolling="no" frameborder="0"></iframe></div>
+            </div>
+
         </div>
-      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
